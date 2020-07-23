@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Mr. Solution - Termitas</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/techie/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/techie/boxicons/css/transformations.css" rel="stylesheet">
+  <link href="assets/vendor/techie/boxicons/css/animations.css" rel="stylesheet">
+  <!-- <link href="assets/vendor/techie/boxicons/css/boxicons.css" rel="stylesheet"> -->
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <!-- <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"> -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <script href="assets/vendor/aos/aos.css"></script>
+
+  <!-- Template Main CSS File -->
+  <link href="assets/vendor/techie/css/style.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <style>
+    .numbered-list {
+      /* max-width: 350px; */
+      counter-reset: my-awesome-counter;
+      list-style: none;
+      padding-left: 60px;
+      padding-top: 10px;
+
+    }
+
+    .numbered-list li {
+      margin: 0 0 0.5rem 0;
+      counter-increment: my-awesome-counter;
+      position: relative;
+
+      padding-bottom: 0px !important;
+      padding-top: 0px !important;
+    }
+
+    .numbered-list li::before {
+      content: counter(my-awesome-counter);
+      color: whitesmoke;
+      font-size: 1rem;
+      font-weight: bold;
+      position: absolute;
+      --size: 26px;
+      left: calc(-1 * var(--size) - 10px);
+      line-height: var(--size);
+      width: var(--size);
+      height: var(--size);
+      top: 0;
+      transform: rotate(-10deg);
+      background: turquoise;
+      border-radius: 50%;
+      text-align: center;
+      box-shadow: 1px 1px 0 #999;
+    }
+
+    .check-list {
+      margin: 0;
+      padding-left: 1.2rem;
+    }
+
+    .check-list li {
+      position: relative;
+      list-style-type: none;
+      padding-left: 2.5rem;
+      padding-bottom: 0px !important;
+      padding-top: 0px !important;
+      /* margin-bottom: 0.5rem; */
+    }
+
+    .check-list li:before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      /* top: -2px; */
+      width: 5px;
+      height: 11px;
+      border-width: 0 2px 2px 0;
+      border-style: solid;
+      border-color: #00a8a8;
+      transform-origin: bottom left;
+      transform: rotate(45deg);
+    }
+
+    .check-list ol {
+      /* max-width: 350px; */
+      counter-reset: my-awesome-counter;
+      list-style: none;
+      padding-left: 60px;
+      padding-top: 10px;
+    }
+
+    .check-list ol li {
+      margin: 0 0 0.5rem 0;
+      counter-increment: my-awesome-counter;
+      position: relative;
+      padding-left: 5px !important;
+    }
+
+    .check-list ol li::before {
+      content: counter(my-awesome-counter);
+      color: whitesmoke;
+      font-size: 1rem;
+      font-weight: bold;
+      position: absolute;
+      --size: 26px;
+      left: calc(-1 * var(--size) - 10px);
+      line-height: var(--size);
+      width: var(--size);
+      height: var(--size);
+      top: 0;
+      transform: rotate(-10deg);
+      background: turquoise;
+      border-radius: 50%;
+      text-align: center;
+      box-shadow: 1px 1px 0 #999;
+    }
+
+    body {
+      line-height: 1.4;
+      font-size: 90%;
+      margin: 2rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo mr-auto"><a href="index.html">Mr. Solution</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li class="drop-down"><a href="">Plagas</a>
+            <ul>
+              <li><a href="covid.html">COVID-19</a></li>
+              <li><a href="dengue.html">Dengue</a></li>
+              <li><a href="cucarachas.html">Cucarachas</a></li>
+              <li><a href="termitas.html">Termitas</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contacto</a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Dengue</h2>
+          <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li>Dengue</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Story Intro Section ======= -->
+    <section id="story-intro" class="faq" style="background: white;">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-3 order-1 order-lg-2">
+            <img src="assets/img/termitas.jpg" class="img-fluid show-on-scroll inline-photo" alt="">
+          </div>
+          <div class="col-lg-9 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>TERMITAS</h3>
+            <br>
+            <p class="font-italic">
+              Si tiene problemas con las Termitas no dude en ponerse en contacto con nosotros, es importante tomar las
+              precauciones con rapidez, recuerde que mientras Ud. piensa las termitas siguen trabajando las 24 Hs del
+              día. En Fumigro tenemos la solución definitiva a su problema, aparte le ofrecemos las mejores garantías
+              Post Trabajo, tanto en fumigaciones convencionales como en los trabajos de barreras químicas.
+            </p>
+            <p>
+              Las termitas son insectos sociales extraordinariamente complejos por su estructura social y eficacia son
+              un ejemplo de trabajo. En la naturaleza cumplen su función degradando la madera muerta, pero en nuestras
+              casas y ciudades al alimentarse de la madera que contienen (vigas, parqués, marcos de puertas y ventanas,
+              muebles, papeles, etc.) se convierten en una plaga por los daños económicos que causan.
+            </p>
+          </div>
+        </div>
+
+      </div>
+      <div class="container" data-aos="fade-up">
+        <div class="faq-list">
+          <ul>
+
+            <li data-aos="fade-up" data-aos-delay="200" style="padding:15px;">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-2"
+                class="collapsed">Introducción al mundo de las Termitas:<i class="bx bx-chevron-down icon-show"></i><i
+                  class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse" data-parent=".faq-list">
+                <p>
+                  Los isópteros (Isóptera del griego isos, "igual" y pteron, "ala"; "alas iguales") son un orden de
+                  insectos neópteros, conocidos vulgarmente como termitas, termes, turiros o comejenes y también como
+                  hormigas blancas, por su semejanza superficial con las hormigas, con las que no están evolutivamente
+                  relacionadas ya que son himenópteros.
+                  <br><br>
+                  Su nombre científico se refiere al hecho que las termitas adultas presentan dos pares de alas de igual
+                  tamaño. Son un grupo de insectos sociales que construyen nidos (termiteros). Las termitas se alimentan
+                  de la celulosa contenida en la madera y sus derivados, la que degradan gracias a la acción de los
+                  protozoos de su sistema digestivo, con los que viven en simbiosis. La mayor parte de las termitas son
+                  de climas tropicales o subtropicales, pero unas pocas viven en climas templados. Se conocen unas
+                  3.000 especies, seis de las cuales han sido introducidas desde otras regiones como plagas urbanas.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="300" style="padding:15px;">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-3"
+                class="collapsed">Características:<i class="bx bx-chevron-down icon-show"></i><i
+                  class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-parent=".faq-list">
+                <p>
+                  Las termitas son abundantes y diversas en América del Sur, África y Australia
+                  particularmente en los bosques tropicales de tierras bajas y sabanas. Muchas especies construyen
+                  colonias en forma de montículos y otras muchas son arbóreas o de vida subterránea. Las termitas que
+                  construyen montículos remueven grandes cantidades de tierra en los suelos duros y poco fértiles, con
+                  lo que contribuyen a la aparición de pequeñas plantas que pueden alcanzar el tamaño de arbustos y
+                  pequeños árboles.
+                  <br><br>
+                  Las termitas por sí mismas no son capaces de digerir la celulosa, pero pueden aprovechar sus
+                  nutrientes
+                  gracias a la degradación de celulosa que realizan protozoos que viven en simbiosis dentro del aparato
+                  digestivo de las obreras. La alimentación del termitero se produce por trofalaxia, las termitas
+                  transportan el alimento en el estómago, y lo transmiten a otros individuos a través del conducto anal
+                  o de la boca. Las termitas tienen importancia económica como plaga en estructuras de madera, obras de
+                  arte y productos almacenados.
+                  <br><br>
+                  Es difícil saber si una colonia de termitas está atacando una estructura debido a su reducido tamaño y
+                  a que poseen fototropismo negativo, es decir, huyen de la luz.[2] Actualmente, existen aparatos
+                  especializados para poder escucharlas a través de un tabique, y descubrir si realmente hay actividad
+                  termítica.
+                  <br><br>
+                  Las termitas atraviesan cualquier cosa para llegar hasta la madera, incluso el hormigón si es preciso.
+                  Para realizar esta acción, muchas veces aprovechan las juntas del hormigón para atravesar muros
+                  supuestamente infranqueables, pero otras desgranan el material realizando una galería que atraviesa la
+                  pared sin problemas.
+                  <br><br>
+                  Viven en colonias que pueden contar hasta con 3 millones de individuos. En cada colonia, la reina es
+                  la única que pone huevos y sus ovarios aumentan en tamaño de forma sorprendente. La mayoría de estos
+                  insectos carece de alas, pero durante la época de la reproducción algunas desarrollan estos órganos y
+                  abandonan el grupo para formar colonias propias.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400" style="padding:15px;">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-4"
+                class="collapsed">Castas de termitas:<i class="bx bx-chevron-down icon-show"></i><i
+                  class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-4" class="collapse" data-parent=".faq-list">
+                <p>
+                  <b>Una colonia de termitas consiste de tres castas básicas: </b>obreras, soldados
+                  y reproductivos.
+                  Obreras son ápteras, exclusivamente hembras, sexualmente inmaduras y con excepción de la familia
+                  Hodotermitidae son ciegas. Esta casta cumple un papel importante en las colonias, ya que es la que
+                  desarrolla la mayor parte de los trabajos en el nido, entre los que se pueden mencionar: la
+                  construcción y mantenimiento del nido; el cuidado y alimentación de los juveniles; alimentación de las
+                  castas que no se pueden alimentar por sí mismas como los soldados y la pareja real; elaboración de
+                  túneles para la búsqueda de alimento; acicalamiento y limpieza de otras castas. Su cuerpo generalmente
+                  está poco esclerotizado.
+                  <br><br>
+                  <b>Soldados son adultos estériles de ambos sexos.</b> Se reconocen fácilmente por tener una cabeza
+                  grande y
+                  bien esclerotizada, que a veces llega a ser más grande que el resto del cuerpo. Muchos tienen las
+                  mandíbulas muy desarrolladas para morder al enemigo; otros están más especializados y tienen un rostro
+                  puntiagudo asociado a glándulas, de modo que pueden repeler a otros animales con chorros de esta
+                  secreción. Las secreciones pueden ser de diferente tipo, aunque lo más normal es que sean tóxicas,
+                  repelentes a pegajosas. Su papel es la defensa de las colonias de termitas.
+                  <br><br>
+                  <b>Reproductores Alados.</b>
+                  Los alados son imagos que todavía mantienen sus alas. Los reproductores alados son los que pueden
+                  producir nuevas reinas y reyes. Los alados salen masivamente de la colonia, cuando se encuentran,
+                  ocurre el apareamiento en túneles para evadir los depredadores y otros azares. Los alados pierden las
+                  alas inmediatamente o seguido del contacto con el sexo opuesto.
+                  <br><br>
+                  <b>Reproductores primarios (Pareja real)</b>
+                  Los reproductores primarios son llamados Rey y Reina. Su cuerpos están normalmente bien
+                  esclerotizados, excepto la hembra de algunas especies, cuyo abdomen puede llegar a ser enorme debido a
+                  la hipertrofia de sus ovarios.
+                  <br><br>
+                  <b>Reproductores secundarios.</b>
+                  En el caso que la reina muera o que esté muy vieja y su producción de huevos decrezca, se pueden
+                  producir reinas sustitutas. Tienen el cuerpo normalmente menos esclerotizado que los primarios.
+
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="500" style="padding:15px;">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-5"
+                class="collapsed">Tipos de Nidos:<i class="bx bx-chevron-down icon-show"></i><i
+                  class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-5" class="collapse" data-parent=".faq-list">
+                <p>
+                  Otra característica de todos los insectos sociales son los nidos; en el caso de las termitas presentan
+                  una gran diversidad; algunas veces presentan una arquitectura compleja, pudiendo llegar a alcanzar
+                  tamaños formidables.
+                  <br><br>
+                  El hábitat primitivo de las termitas fue probablemente dentro de madera muerta, como troncos, partes
+                  muertas de árboles vivos; donde la sociedad encontraba alimento y refugio, lo que denominan como nidos
+                  de una pieza.
+                  Dentro del grupo de nidos separados se distinguen tres principales categorías:
+                  <br><br>
+                  <b>Nidos subterráneos:</b> este termitero esta en el subsuelo, a más de 40 metros del lugar en el que
+                  se
+                  detectan sus señales.
+                  <br><br>
+                  <b>Nidos epígeos o termiteros catedrales:</b> son un tipo de nido que sobresale de la superficie del suelo
+                  (montículos). Algunas termitas construyen los nidos como columnas que pueden llegar a medir 8 metros,
+                  pero lo más común es que midan de 3 a 4. Están orientadas al norte: la altura y la orientación ayudan
+                  a regular la temperatura, con un margen de variación de uno o dos grados. Independientemente de la
+                  temperatura que haya fuera, dentro del termitero siempre hay una atmósfera fresca. Estan construídos
+                  con una arcilla resultado de una mezcla de saliva, tierra y excrementos. Algunas construcciones
+                  consiguen tal dureza, que son necesarios explosivos para derruirlas. Este tipo de termiteros sólo
+                  lo construyen los termes bélicos.
+                  <br><br>
+                  <b>Nidos arbóreos:</b> construidos en troncos o en una rama de un árbol, que siempre están unidos al suelo
+                  por galerías cubiertas.
+                  <br><br>
+                  Sin embargo, hay algunos nidos intermedios. Los nidos epígeos siempre tienen una parte basal
+                  subterránea, más o menos importante y a veces preponderante, como en Hodotermitidae. Algunos nidos
+                  epígeos están construidos contra un tronco de un árbol y si la base es reducida tienden a hacerse
+                  arbóreos.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section><!-- End Story Intro Section -->
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Mr. Solution</h3>
+      <p>Consúltenos sobre el manejo integrado de plagas y gustosamente le brindaremos un servicio profesional y garantizado.</p>
+      <div class="social-links">
+        <div class="btn btn-primary btn-lg btn3d"><i class="bx bxl-facebook" onclick="window.open('https://www.facebook.com/fumigacion81/','Mr.Solution')"></i></div>
+        <div class="btn btn-success btn-lg btn3d"><i class="bx bxl-whatsapp" onclick="window.open('https://wa.link/t2u4jx/','Mr.Solution')"></i></div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
