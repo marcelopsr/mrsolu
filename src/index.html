@@ -28,15 +28,43 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 
-    <!-- =======================================================
-  * Template Name: MeFamily - v2.0.0
-  * Template URL: https://bootstrapmade.com/family-multipurpose-html-bootstrap-template-free/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
+<style>
+    .carousel-caption {
+        bottom: 20%;
+    }
 
+    .carousel-text {
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        color: #fff;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+    .custom-mask {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    }
+
+    .carousel-indicators li {
+        background-color: #fff;
+        border-radius: 50%;
+        width: 12px;
+        height: 12px;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        filter: invert(100%);
+        width: 40px;
+        height: 40px;
+    }
+</style>
 
 
 
@@ -74,60 +102,57 @@
     </header>
     <!-- End Header -->
 
-    <!--Carousel Wrapper-->
-    <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
-        <!--Indicators-->
-        <ol class="carousel-indicators">
-            <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-2" data-slide-to="1"></li>
-            <li data-target="#carousel-example-2" data-slide-to="2"></li>
-        </ol>
-        <!--/.Indicators-->
-        <!--Slides-->
-        <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-                <div class="view">
-                    <img class="d-block w-100" src="assets/img/gallery/fumigro-1.jpeg" alt="First slide">
-                    <div class="mask rgba-black-strong"></div>
+        <!--Carousel Wrapper-->
+        <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                <li data-target="#carousel-example-2" data-slide-to="2"></li>
+            </ol>
+            <!--/.Indicators-->
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="view">
+                        <img class="d-block w-100" src="assets/img/gallery/fumigro-1.jpeg" alt="First slide">
+                        <div class="mask custom-mask"></div>
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <p class="carousel-text">Somos la solución definitiva para tus problemas contra las plagas, contamos con una línea amplia de productos para el saneamiento ambiental, personal altamente calificado para estas tareas rigurosas.</p>
+                    </div>
                 </div>
-                <div class="carousel-caption">
-                    <p style="background-color:black; opacity:0.7; font-size:x-large;">Somos la solucion definitiva para tus problemas contra las plagas, contamos con una linea amplia de productos para el saneamiento ambiental, personal altamente calificado para estas tareas rigurosas </p>
+                <div class="carousel-item">
+                    <div class="view">
+                        <img class="d-block w-100" src="assets/img/gallery/fumigro-3.jpeg" alt="Second slide">
+                        <div class="mask custom-mask"></div>
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <p class="carousel-text">Eliminamos todo tipo de plagas que puedan existir en tu hogar, no volverás a tener problemas con esas cucarachas que contaminan sus alimentos, todos nuestros trabajos cuentan con garantía.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <!--Mask color-->
-                <div class="view">
-                    <img class="d-block w-100" src="assets/img/gallery/fumigro-3.jpeg" alt="Second slide">
-                    <div class="mask rgba-black-strong"></div>
-                </div>
-                <div class="carousel-caption">
-
-                    <p style="background-color:black; opacity:0.7; font-size:x-large;">Eliminamos todo tipo de plagas que puedan existir en tu hogar, no volvera a tener problemas con esas cucarachas que contaminan sus alimentos, todos nuestros trabajos cuentan con garantia</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <!--Mask color-->
-                <div class="view">
-                    <img class="d-block w-100" src="assets/img/gallery/pest-control.png" alt="Third slide">
-                    <div class="mask rgba-black-strong"></div>
-                </div>
-                <div class="carousel-caption">
-                    <p style="background-color:black; opacity:0.7; font-size:x-large;">Realizamos el trabajo minuciosamente con el fin de que no haya un rincon inseguro, cada trabajo se realiza con productos no toxicos para el medio ambiente.</p>
+                <div class="carousel-item">
+                    <div class="view">
+                        <img class="d-block w-100" src="assets/img/gallery/pest-control.png" alt="Third slide">
+                        <div class="mask custom-mask"></div>
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <p class="carousel-text">Realizamos el trabajo minuciosamente con el fin de que no haya un rincón inseguro, cada trabajo se realiza con productos no tóxicos para el medio ambiente.</p>
+                    </div>
                 </div>
             </div>
+            <!--/.Slides-->
+            <!--Controls-->
+            <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+            <!--/.Controls-->
         </div>
-        <!--/.Slides-->
-        <!--Controls-->
-        <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Anterior</span>
-        </a>
-        <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Siguiente</span>
-        </a>
-        <!--/.Controls-->
-    </div>
     <!--/.Carousel Wrapper-->
     <!-- Contenido -->
     <main id="main">
